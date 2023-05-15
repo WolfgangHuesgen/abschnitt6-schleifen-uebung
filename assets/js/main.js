@@ -80,3 +80,17 @@ var data = [
     ],
   },
 ];
+
+/*
+Weitere Möglichkeit
+
+function calculate(){
+    for (let year of data) {
+        for (let month of year.revenue) {
+            totalRevenue += month.revenue;
+        }
+    }
+    console.log(totalRevenue)
+ 
+}
+*/
